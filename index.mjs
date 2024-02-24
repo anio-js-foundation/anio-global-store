@@ -60,6 +60,12 @@ function genericDeleteItem(map, key) {
 //
 // private globals
 //
+export function hasItem(key) {
+	const {private_items} = getGlobalStore()
+
+	return private_items.has(key)
+}
+
 export function setItem(key, value) {
 	const {private_items} = getGlobalStore()
 
@@ -88,6 +94,12 @@ export function getItems() {
 //
 // "shared" globals
 //
+export function hasSharedItem(key) {
+	const {shared_items} = getGlobalStore()
+
+	return shared_items.has(key)
+}
+
 export function setSharedItem(key, value) {
 	const {shared_items} = getGlobalStore()
 
@@ -114,11 +126,13 @@ export function getSharedItems() {
 
 //
 export default {
+	hasItem,
 	setItem,
 	getItem,
 	deleteItem,
 	getItems,
 
+	hasSharedItem,
 	setSharedItem,
 	getSharedItem,
 	deleteSharedItem,
