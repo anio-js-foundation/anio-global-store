@@ -1,0 +1,12 @@
+{
+  "name": "@anio-js-core-foundation/anio-global-store",
+  "version": "1.0.0",
+  "description": "Global storage API for anio-software JavaScript projects.",
+  "main": "index.mjs",
+  "author": "Anio Software <info@anio.software>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anio-js-core-foundation/anio-global-store.git"
+  }
+}
