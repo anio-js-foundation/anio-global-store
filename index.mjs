@@ -111,3 +111,16 @@ export function getSharedItems() {
 
 	return new Map(shared_items)
 }
+
+//
+export default {
+	setItem,
+	getItem,
+	deleteItem,
+	getItems,
+
+	setSharedItem,
+	getSharedItem,
+	deleteSharedItem,
+	getSharedItems
+}
