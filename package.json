@@ -1,6 +1,6 @@
 {
   "name": "@anio-js-foundation/anio-global-store",
-  "version": "1.2.0",
+  "version": "2.0.0",
   "description": "Global storage API for anio-software JavaScript projects.",
   "main": "./dist/package.mjs",
   "author": "Anio Software <info@anio.software>",
