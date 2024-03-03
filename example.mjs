@@ -10,7 +10,7 @@ import {
 	getSharedItem,
 	deleteSharedItem,
 	getSharedItems
-} from "./index.mjs"
+} from "./src/index.mjs"
 
 console.log(setItem("a", 1)) // null
 console.log(setItem("a", 2)) // 1

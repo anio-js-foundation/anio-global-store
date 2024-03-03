@@ -1,7 +1,7 @@
 const global_uuid = `FACD900A-9868-4CCB-B660-9DDF52D1BE12`
 
 const symbol = Symbol.for(
-	`@anio-js-core-foundation/anio-global-store-${global_uuid}`
+	`@anio-js-foundation/anio-global-store-${global_uuid}`
 )
 
 //

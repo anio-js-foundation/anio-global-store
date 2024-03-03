@@ -1,4 +1,4 @@
-# @anio-js-core-foundation/anio-global-store
+# @anio-js-foundation/anio-global-store
 
 Global storage API for anio-software JavaScript projects.
 
@@ -18,7 +18,7 @@ import {
 	getSharedItem,
 	deleteSharedItem,
 	getSharedItems
-} from "@anio-js-core-foundation/anio-global-store"
+} from "@anio-js-foundation/anio-global-store"
 
 console.log(setItem("a", 1)) // null
 console.log(setItem("a", 2)) // 1

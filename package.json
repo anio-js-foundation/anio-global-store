@@ -1,12 +1,21 @@
 {
-  "name": "@anio-js-core-foundation/anio-global-store",
+  "name": "@anio-js-foundation/anio-global-store",
   "version": "1.2.0",
   "description": "Global storage API for anio-software JavaScript projects.",
-  "main": "index.mjs",
+  "main": "./dist/package.mjs",
   "author": "Anio Software <info@anio.software>",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/anio-js-core-foundation/anio-global-store.git"
-  }
+    "url": "git+https://github.com/anio-js-foundation/anio-global-store.git"
+  },
+  "devDependencies": {
+    "@anio-software/npm-package-bundler": "^1.0.0"
+  },
+  "scripts": {
+    "prepare": "./node_modules/.bin/npm-package-bundler ."
+  },
+  "files": [
+    "./dist/package.mjs"
+  ]
 }
